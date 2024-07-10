@@ -1,0 +1,13 @@
+:root {
+    --background: #111315;
+    --foreground: #1B1D1F;
+    --button: #6F757C;
+    --accent: #FEF7EE;
+    --secondary: #BEE3CC;
+    --popular: #F6C768;
+    --warning: #ED735D;
+}
+
+* {
+    font-family: "DM Sans", 'system-ui';
+}
