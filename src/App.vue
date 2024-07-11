@@ -89,7 +89,6 @@ export default {
         height: fit-content;
         margin-top: -160px;
         margin-bottom: 60px;
-        padding: 80px 100px;
         box-sizing: border-box;
 
         display: flex;
@@ -102,10 +101,30 @@ export default {
     }
 
     .cards {
-        width: 90%;
+        width: 100%;
         display: flex;
         justify-content: center;
         flex-wrap: wrap;
         gap: 40px;
+    }
+
+    /* Phone */
+    @media only screen and (max-width: 539px) {
+        .foreground {
+            padding: 40px 20px
+        }
+    }
+    /* Tablet */
+    @media only screen and (min-width: 540px) and (max-width: 1159px) {
+        .foreground {
+            padding: 80px 40px;
+        }
+    }
+
+    /* Desktop */
+    @media only screen and (min-width: 1160px) {
+        .foreground {
+            padding: 80px 100px;
+        }
     }
 </style>

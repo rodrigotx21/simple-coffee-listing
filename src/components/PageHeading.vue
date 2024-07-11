@@ -68,9 +68,22 @@ export default {
         align-items: center;
         gap: 20px;
 
-        padding: 0 240px;
         box-sizing: border-box; /* Ensure padding is included in width */
 
         text-align: center;
+    }
+
+    /* Tablet */
+    @media only screen and (min-width: 540px) and (max-width: 1159px) {
+        .PageHeading {
+            padding: 0 90px;
+        }
+    }
+
+    /* Desktop */
+    @media only screen and (min-width: 1160px) {
+        .PageHeading {
+            padding: 0 240px;
+        }
     }
 </style>
