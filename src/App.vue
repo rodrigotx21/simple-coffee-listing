@@ -111,13 +111,15 @@ export default {
     /* Phone */
     @media only screen and (max-width: 539px) {
         .foreground {
-            padding: 40px 20px
+            padding: 40px 20px;
+            margin-top: -10%;
         }
     }
     /* Tablet */
     @media only screen and (min-width: 540px) and (max-width: 1159px) {
         .foreground {
             padding: 80px 40px;
+            margin-top: -10%;
         }
     }
 
